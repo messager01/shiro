@@ -8,6 +8,7 @@ package cn.wolfcodde;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.authz.AuthorizationException;
 import org.apache.shiro.config.IniSecurityManagerFactory;
 import org.apache.shiro.crypto.hash.Md5Hash;
 import org.apache.shiro.mgt.SecurityManager;
@@ -20,6 +21,38 @@ import java.util.Arrays;
 
 public class ShiroTest {
 
+
+    @Test
+    public  void testPermission(){
+        Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro-permission.ini");
+        SecurityManager securityManager = factory.getInstance();
+        SecurityUtils.setSecurityManager(securityManager);
+        Subject subject = SecurityUtils.getSubject();
+
+        UsernamePasswordToken token = new UsernamePasswordToken("zhangsan", "666");
+        subject.login(token);
+        // 判断当前用户是否拥有某一个权限    返回true或false
+        System.out.println(subject.isPermitted("user:delete"));
+
+        //判断用户是否拥有一些权限     返回true 表示都拥有
+        System.out.println(subject.isPermittedAll("user:create","user:delete","user:update"));
+
+        //  以数组的形式 返回是否拥有某些权限
+        System.out.println(Arrays.toString(subject.isPermitted("user:list","user:create")));
+
+        //  如果拥有指定权限  没有返回值
+        subject.checkPermission("user:create");
+
+        String permission = "list";
+        //  如果不拥有指定权限  报异常
+        try {
+            subject.checkPermission("user:"+permission);
+        } catch (AuthorizationException e) {
+            System.out.println("当前用户不具备"+permission+"权限");
+        }
+
+
+    }
 
     @Test
     public void testHasRoles(){

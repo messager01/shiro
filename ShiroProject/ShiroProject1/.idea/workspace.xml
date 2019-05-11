@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9823f1d-e17b-4431-b0e2-f0cb24413bb5" name="Default Changelist" comment="" />
+    <list default="true" id="b9823f1d-e17b-4431-b0e2-f0cb24413bb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiroProject1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/wolfcodde/ShiroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/wolfcodde/ShiroTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,14 +56,42 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-642896481">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="538" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="538" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ini" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/cn/wolfcodde/ShiroTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="836">
+              <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,6 +107,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -109,7 +145,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-5" />
     <option name="y" value="310" />
     <option name="width" value="1805" />
@@ -234,11 +270,14 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,44 +302,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShiroProject1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShiroProject1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShiroProject1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShiroProject1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="wolfcodde" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShiroProject1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShiroProject1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="wolfcodde" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShiroProject1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShiroProject1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="wolfcodde" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="realm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShiroProject1" type="b2602c69:ProjectViewProjectNode" />
@@ -343,14 +344,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557580768684" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557582381555" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -370,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShiroTest.testHasRoles">
+  <component name="RunManager" selected="JUnit.ShiroTest.testPermission">
     <configuration name="MD5Test.testMd5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShiroProject1" />
       <extension name="coverage">
@@ -398,22 +397,6 @@
       <option name="PACKAGE_NAME" value="cn.wolfcodde" />
       <option name="MAIN_CLASS_NAME" value="cn.wolfcodde.ShiroTest" />
       <option name="METHOD_NAME" value="testHasRoles" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShiroTest.testLoGIN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShiroProject1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.wolfcodde.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.wolfcodde" />
-      <option name="MAIN_CLASS_NAME" value="cn.wolfcodde.ShiroTest" />
-      <option name="METHOD_NAME" value="testLoGIN" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -451,20 +434,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShiroTest.testPermission" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShiroProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wolfcodde.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.wolfcodde" />
+      <option name="MAIN_CLASS_NAME" value="cn.wolfcodde.ShiroTest" />
+      <option name="METHOD_NAME" value="testPermission" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.ShiroTest.testLoGIN" />
       <item itemvalue="JUnit.ShiroTest.testLoginByMyRealm" />
       <item itemvalue="JUnit.MD5Test.testMd5" />
       <item itemvalue="JUnit.ShiroTest.testMd5" />
       <item itemvalue="JUnit.ShiroTest.testHasRoles" />
+      <item itemvalue="JUnit.ShiroTest.testPermission" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShiroTest.testPermission" />
         <item itemvalue="JUnit.ShiroTest.testHasRoles" />
         <item itemvalue="JUnit.ShiroTest.testMd5" />
         <item itemvalue="JUnit.MD5Test.testMd5" />
         <item itemvalue="JUnit.ShiroTest.testLoginByMyRealm" />
-        <item itemvalue="JUnit.ShiroTest.testLoGIN" />
       </list>
     </recent_temporary>
   </component>
@@ -480,48 +479,50 @@
       <updated>1557550015965</updated>
       <workItem from="1557550018437" duration="5285000" />
       <workItem from="1557577601853" duration="3255000" />
+      <workItem from="1557581216586" duration="1121000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShiroTest_testHasRoles - 2019.05.11 at 21h 07m 03s.xml">
-      <configuration name="ShiroTest.testHasRoles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShiroTest_testHasRoles - 2019.05.11 at 21h 08m 01s.xml">
-      <configuration name="ShiroTest.testHasRoles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShiroTest_testHasRoles - 2019.05.11 at 21h 09m 46s.xml">
-      <configuration name="ShiroTest.testHasRoles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShiroTest_testHasRoles - 2019.05.11 at 21h 10m 32s.xml">
-      <configuration name="ShiroTest.testHasRoles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShiroTest_testHasRoles - 2019.05.11 at 21h 12m 15s.xml">
-      <configuration name="ShiroTest.testHasRoles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShiroTest_testHasRoles - 2019.05.11 at 21h 14m 58s.xml">
-      <configuration name="ShiroTest.testHasRoles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShiroTest_testHasRoles - 2019.05.11 at 21h 15m 07s.xml">
-      <configuration name="ShiroTest.testHasRoles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShiroTest_testHasRoles - 2019.05.11 at 21h 16m 26s.xml">
-      <configuration name="ShiroTest.testHasRoles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShiroTest_testHasRoles - 2019.05.11 at 21h 18m 11s.xml">
-      <configuration name="ShiroTest.testHasRoles" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShiroTest_testHasRoles - 2019.05.11 at 21h 18m 23s.xml">
       <configuration name="ShiroTest.testHasRoles" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShiroTest_testPermission - 2019.05.11 at 21h 35m 40s.xml">
+      <configuration name="ShiroTest.testPermission" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShiroTest_testPermission - 2019.05.11 at 21h 36m 11s.xml">
+      <configuration name="ShiroTest.testPermission" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShiroTest_testPermission - 2019.05.11 at 21h 37m 41s.xml">
+      <configuration name="ShiroTest.testPermission" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShiroTest_testPermission - 2019.05.11 at 21h 37m 58s.xml">
+      <configuration name="ShiroTest.testPermission" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShiroTest_testPermission - 2019.05.11 at 21h 39m 31s.xml">
+      <configuration name="ShiroTest.testPermission" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShiroTest_testPermission - 2019.05.11 at 21h 40m 32s.xml">
+      <configuration name="ShiroTest.testPermission" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShiroTest_testPermission - 2019.05.11 at 21h 41m 00s.xml">
+      <configuration name="ShiroTest.testPermission" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShiroTest_testPermission - 2019.05.11 at 21h 42m 30s.xml">
+      <configuration name="ShiroTest.testPermission" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShiroTest_testPermission - 2019.05.11 at 21h 44m 18s.xml">
+      <configuration name="ShiroTest.testPermission" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8540000" />
+    <option name="totallyTimeSpent" value="9661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15683647" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15884718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -531,7 +532,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37243402" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34508076" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38709676" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -607,9 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
           <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,9 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,13 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/shiro-cryptography.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -656,15 +644,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/shiro-permission.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
+        <state relative-caret-position="56">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/shiro-cryptography.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cn/wolfcodde/ShiroTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="836">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
